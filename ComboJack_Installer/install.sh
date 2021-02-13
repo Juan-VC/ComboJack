@@ -19,7 +19,7 @@ sudo rm -f /usr/local/share/ComboJack/Headphone.icns
 sudo rm -f /usr/local/share/ComboJack/l10n.json
 
 # install 
-mkdir -p /usr/local/sbin
+sudo mkdir -p /usr/local/sbin
 sudo cp ComboJack /usr/local/sbin
 sudo chmod 755 /usr/local/sbin/ComboJack
 sudo chown root:wheel /usr/local/sbin/ComboJack

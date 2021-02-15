@@ -5,6 +5,7 @@ then
     exec sudo /bin/bash "$0" "$@"
 fi
 
+echo "Fixing 3.5mm jack"
 cd "$( dirname "${BASH_SOURCE[0]}" )"
 
 # Clean legacy stuff
@@ -26,25 +27,27 @@ sudo chown root:wheel /usr/local/sbin/ComboJack
 sudo cp hda-verb /usr/local/sbin
 #sudo chmod 755 /usr/local/sbin/hda-verb
 #sudo chown root:wheel /usr/local/sbin/hda-verb
-sudo mkdir -p /usr/local/share/ComboJack/
-sudo cp Headphone.icns /usr/local/share/ComboJack/
-sudo chmod 644 /usr/local/share/ComboJack/Headphone.icns
-sudo cp l10n.json /usr/local/share/ComboJack/
-sudo chmod 644 /usr/local/share/ComboJack/l10n.json
+#sudo mkdir -p /usr/local/share/ComboJack/
+#sudo cp Headphone.icns /usr/local/share/ComboJack/
+#sudo chmod 644 /usr/local/share/ComboJack/Headphone.icns
+#sudo cp l10n.json /usr/local/share/ComboJack/
+#sudo chmod 644 /usr/local/share/ComboJack/l10n.json
 sudo cp com.XPS.ComboJack.plist /Library/LaunchDaemons/
 sudo chmod 644 /Library/LaunchDaemons/com.XPS.ComboJack.plist
 sudo chown root:wheel /Library/LaunchDaemons/com.XPS.ComboJack.plist
 sudo launchctl load /Library/LaunchDaemons/com.XPS.ComboJack.plist
-echo
-echo "Install successfully!"
-echo "Please reboot! Also, it may be a good idea to turn off \"Use"
-echo "ambient noise reduction\" when using an input method other than"
-echo "the internal mic (meaning line-in, headset mic). As always: YMMV."
-echo
-echo "You can check to see if the watcher is working in the IORegistry:"
-echo "there should be a device named \"VerbStubUserClient\" attached to"
-echo "\"com_XPS_SetVerb\" somewhere within the \"HDEF\" entry's hierarchy."
-echo
-echo "Enjoy!"
+# echo
+# echo "Install successfully!"
+# echo "Please reboot! Also, it may be a good idea to turn off \"Use"
+# echo "ambient noise reduction\" when using an input method other than"
+# echo "the internal mic (meaning line-in, headset mic). As always: YMMV."
+# echo
+# echo "You can check to see if the watcher is working in the IORegistry:"
+# echo "there should be a device named \"VerbStubUserClient\" attached to"
+# echo "\"com_XPS_SetVerb\" somewhere within the \"HDEF\" entry's hierarchy."
+# echo
+# echo "Enjoy!"
+# echo
+echo "Done!"
 echo
 exit 0

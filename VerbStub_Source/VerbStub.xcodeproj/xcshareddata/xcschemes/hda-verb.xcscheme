@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB3D58421F0A7DE000F741BA"
-               BuildableName = "ComboJack"
-               BlueprintName = "ComboJack"
-               ReferencedContainer = "container:ComboJack.xcodeproj">
+               BlueprintIdentifier = "CB3C1C351F08A67000F26D79"
+               BuildableName = "hda-verb"
+               BlueprintName = "hda-verb"
+               ReferencedContainer = "container:VerbStub.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,7 +31,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -44,10 +44,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB3D58421F0A7DE000F741BA"
-            BuildableName = "ComboJack"
-            BlueprintName = "ComboJack"
-            ReferencedContainer = "container:ComboJack.xcodeproj">
+            BlueprintIdentifier = "CB3C1C351F08A67000F26D79"
+            BuildableName = "hda-verb"
+            BlueprintName = "hda-verb"
+            ReferencedContainer = "container:VerbStub.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB3D58421F0A7DE000F741BA"
-            BuildableName = "ComboJack"
-            BlueprintName = "ComboJack"
-            ReferencedContainer = "container:ComboJack.xcodeproj">
+            BlueprintIdentifier = "CB3C1C351F08A67000F26D79"
+            BuildableName = "hda-verb"
+            BlueprintName = "hda-verb"
+            ReferencedContainer = "container:VerbStub.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

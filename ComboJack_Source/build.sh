@@ -10,4 +10,4 @@ cp -f ./Headphone.icns ../ComboJack_Installer/
 cp -f ./l10n.json ../ComboJack_Installer/
 #exec ./build/Release/ComboJack
 rm -rf ./build
-exec bash ../ComboJack_Installer/install.sh
+#exec bash ../ComboJack_Installer/install.sh

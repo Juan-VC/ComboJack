@@ -1,5 +1,5 @@
 # ComboJack for Dell series
-An Pop up to select type of jack that you plug in
+An Pop up to select type of jack that you plug in -> Disabled
 
 <p align="center">
     <img src="./popup.png"/>
@@ -20,7 +20,7 @@ An Pop up to select type of jack that you plug in
 ```
 
 # Installation
-1. Copy VerbStub.kext into your Clover/kext/Other
+1. Copy VerbStub.kext into your OC/Kexts/
 2. Run 'bash install.sh' and you good to go.
 
 # Add your codec
